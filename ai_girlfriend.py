@@ -5,7 +5,7 @@ from flask_cors import CORS
 import os
 
 # API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCxjoaEpXuLqK5TsRB7MG1k8dCA2XJuZe0"
+os.environ["GOOGLE_API_KEY"] = "google_api_key"
 
 app = Flask(__name__)
 CORS(app)  # to allow frontend access
